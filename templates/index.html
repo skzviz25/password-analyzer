@@ -1,56 +1,66 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Security Dashboard</title>
+    <meta charset="UTF-8">
+    <title>Cyber-Audit Dashboard</title>
     <script src="https://cdn.socket.io/4.7.2/socket.io.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
     <style>
         body { background: #050505; color: #00ff41; font-family: 'Courier New', monospace; padding: 20px; }
-        .card { border: 1px solid #00ff41; padding: 20px; margin-bottom: 20px; background: rgba(0, 255, 65, 0.05); }
-        .danger { color: #ff3e3e; font-weight: bold; }
-        .stats { font-size: 1.2rem; }
+        .grid { display: grid; grid-template-columns: 300px 1fr; gap: 20px; }
+        .card { border: 1px solid #00ff41; padding: 20px; background: rgba(0, 255, 65, 0.05); box-shadow: 0 0 15px rgba(0, 255, 65, 0.2); }
+        h2 { border-bottom: 1px solid #00ff41; padding-bottom: 10px; }
+        .danger { color: #ff3e3e; text-shadow: 0 0 5px #ff3e3e; }
+        table { width: 100%; border-collapse: collapse; margin-top: 15px; }
+        th, td { border: 1px solid #00ff41; padding: 8px; text-align: left; }
+        #insights { color: #888; font-style: italic; }
     </style>
 </head>
 <body>
-    <h1>SYSTEM ANALYZER v4.0</h1>
-    <div style="display: flex; gap: 30px;">
+    <h1>SECURITY OPERATIONS CENTER // PASSWORD AUDIT</h1>
+    
+    <div class="grid">
         <div class="card">
-            <h3>SCAN ACCESS</h3>
-            <div id="qrcode" style="background:white; padding:10px;"></div>
+            <h2>ACCESS NODE</h2>
+            <div id="qrcode" style="background:white; padding:10px; display:inline-block;"></div>
+            <p style="font-size: 0.8rem;">SCAN TO CONNECT REMOTE INPUT</p>
         </div>
-        <div class="card" style="flex-grow: 1;">
-            <h3>METRICS</h3>
-            <div class="stats">
-                <p>Entropy: <span id="entropy">0</span> bits</p>
-                <p>Strength: <span id="strength">N/A</span></p>
-                <p>Status: <span id="status">Waiting...</span></p>
-                <p>Time to Crack (GPU): <span id="crack_time">0 seconds</span></p>
-            </div>
+
+        <div class="card">
+            <h2>VULNERABILITY METRICS</h2>
+            <p>Entropy Score: <span id="entropy">0</span> bits</p>
+            <p>Cryptographic Strength: <span id="strength">---</span></p>
+            <p>Local Dictionary Match: <span id="local">Waiting...</span></p>
+            <p>HIBP Global Breach Match: <span id="api">Waiting...</span></p>
+            <p>Heuristic Insights: <span id="insights">None</span></p>
+            
+            <h2>HARDWARE CRACK ESTIMATES</h2>
+            <table>
+                <thead><tr><th>Hardware Tier</th><th>Estimated Time</th></tr></thead>
+                <tbody id="time_table"></tbody>
+            </table>
         </div>
     </div>
 
     <script>
         var socket = io(window.location.origin);
-        
-        // Generate QR for whatever URL we are visiting (Local or Ngrok)
         new QRCode(document.getElementById("qrcode"), window.location.origin + "/mobile");
 
         socket.on('update_ui', function(data) {
             document.getElementById('entropy').innerText = data.entropy;
             document.getElementById('strength').innerText = data.strength;
-            
-            // Update Status
-            let statusEl = document.getElementById('status');
-            if(data.leaked) {
-                statusEl.innerHTML = "<span class='danger'>⚠️ LEAKED IN DATABASE</span>";
-            } else {
-                statusEl.innerText = "✅ Secure (Not Leaked)";
-            }
+            document.getElementById('insights').innerText = data.insights.join(" | ");
 
-            // Update Time (using RTX 4090 time as reference)
-            let s = data.crack_times["RTX 4090 (50B/s)"];
-            let timeStr = s < 1 ? "< 1s" : s < 3600 ? (s/60).toFixed(1)+"m" : (s/86400).toFixed(1)+" days";
-            document.getElementById('crack_time').innerText = timeStr;
+            document.getElementById('local').innerHTML = data.local ? "<span class='danger'>MATCH FOUND</span>" : "CLEAN";
+            document.getElementById('api').innerHTML = data.api ? "<span class='danger'>BREACH DETECTED</span>" : "NOT FOUND";
+
+            let tableHTML = "";
+            for (let hw in data.times) {
+                let s = data.times[hw];
+                let timeStr = s < 1 ? "< 1s" : s < 3600 ? (s/60).toFixed(1)+"m" : (s/86400).toFixed(1)+" days";
+                tableHTML += `<tr><td>${hw}</td><td>${timeStr}</td></tr>`;
+            }
+            document.getElementById('time_table').innerHTML = tableHTML;
         });
     </script>
 </body>
