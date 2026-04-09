@@ -1,11 +1,3 @@
-05448704298
-054487-9
-054487
-05448682806
-05448681917
-05448680486
-0544867
-05448656269
 0544862020
 0544862
 05448601298
@@ -66145,7 +66137,7 @@
 04082618
 04082611
 040826000
-040825ๅ
+040825�
 040825808
 04082549
 04082540
@@ -79543,7 +79535,7 @@
 038455143
 038455141
 03845382
-038452524 
+038452524
 03845236
 038451403
 038451392
@@ -119314,7 +119306,7 @@
 0288210346
 028821029
 028821008
-028820887 
+028820887
 028820861
 028820860z
 028820857
@@ -160112,7 +160104,7 @@
 0207199810
 02071998
 02071996.
-02071996     
+02071996
 0207199522071993
 02071993sofi
 02071993jtm
@@ -173071,7 +173063,7 @@
 018735728
 0187348349
 018734553
-0187341699   
+0187341699
 018733878
 0187332913
 018733123
@@ -179306,7 +179298,7 @@
 0176441381
 0176439159
 0176437973
-0176436104 
+0176436104
 017643510
 017643134/
 0176430791
@@ -219051,7 +219043,7 @@
 0125514144
 0125513253
 0125512305
-0125512093  
+0125512093
 0125512093
 0125512
 012551198741
@@ -228713,7 +228705,7 @@
 0121344659
 0121342485
 01213423665
-0121342320  
+0121342320
 012134207022533
 0121341308
 0121341154k,vhg]
@@ -234503,7 +234495,7 @@
 011242526
 0112423930
 0112422232
-0112420329    
+0112420329
 011242006
 011241651
 0112415273
@@ -245980,7 +245972,7 @@
 0104273899
 0104272570
 01042724
-0104271187  
+0104271187
 0104270822
 010427020
 01042700
@@ -279360,7 +279352,7 @@
 00000.000.
 00000..
 00000*ranita
-00000     
+00000
 0000.scrat
 0000.00000
 0000.000
@@ -279835,14 +279827,14 @@
 0 3 5 8
 0 236961
 0 0 0
-0                                                                                                                                                                                                                                                              
+0
 /ๅๅๅึึ
 /ๅๅๅ---
 /ๅๅุ/ถ/ค
 /ๅๅจึจ
 /ๅๅ//ถ/ต
 /ๅๅ//ถ
-/ๅถถคถภ
+/ๅถถคถ�
 /ๅตุึ/ๅตุึ
 /ๅจๅๅตคค
 /ๅจุคค
@@ -279850,28 +279842,28 @@
 /ๅจถๅตถค
 /ๅจถ-จ
 /ๅจต/ถ/ค
-/ๅจ/ถจภภภ
+/ๅจ/ถจภภ�
 /ๅค/ๅจจ
-/ๅ/ๅ/ๅ
-/ๅ/ๅ
+/ๅ/ๅ/�
+/ๅ/�
 /ๅ/ุ/-
-/ๅ/ึ/ๅ
+/ๅ/ึ/�
 /ๅ/ถๅค
-/ๅ/ถ/ๅ
-/ๅ///ภ
+/ๅ/ถ/�
+/ๅ///�
 /ุๅจๅตึค
-/ุๅจตภ
+/ุๅจต�
 /ุๅจ-ถ
 /ุๅ/ถ/ุ
-/ุๅ-/ถ/จๅ
+/ุๅ-/ถ/จ�
 /ุภภคถถ
 /ุภค/จุจๅจภุขค
 /ุจึ/ึ
 /ุ/ถ/ค
 /ุ/-จต
-/ุ-ๅภถภ
+/ุ-ๅภถ�
 /ืำีืเ6/3
-/ึๅๅๅตตๅ
+/ึๅๅๅตต�
 /ึๅจ/ถ-ถ
 /ึๅ/ภค
 /ึๅ//ถ/ค
@@ -279881,10 +279873,10 @@
 /ึจๅฌ
 /ึจุ-/
 /ึจต/ถๅจ
-/ึ/ๅถภ
+/ึ/ๅถ�
 /ึ/ๅ//ึ
 /ึ/ึ/ึ
-/ึ/ถ-ๅ
+/ึ/ถ-�
 /ึ/ต--
 /ึ/ค/ตุ
 /ึ/ค
@@ -279895,9 +279887,9 @@
 /ภๅจ/ถๅึ
 /ภๅ//ถ
 /ภๅ//ค่ฟ
-/ภุ/-ภ
-/ภภึๅๅ
-/ภภภภภ
+/ภุ/-�
+/ภภึๅ�
+/ภภภภ�
 /ภภ-คุ
 /ภถึคต
 /ภจึจตถ
@@ -279908,7 +279900,7 @@
 /ภ/ึภ/จ-ๅุ
 /ภ/ภถจ
 /ภ/ต-จ
-/ภ/คภๅ
+/ภ/คภ�
 /ภ-จคตจ
 /ถๅๅๅตค-
 /ถๅถ
@@ -279919,65 +279911,65 @@
 /ถๅ//ถจึ
 /ถึจึ/
 /ถภ-
-/ถตตภ
+/ถตต�
 /ถจๅ/ถ/ุ
-/ถจุ/ถ/ภ
+/ถจุ/ถ/�
 /ถจภึถถ
 /ถจค//
 /ถจ-จจ
 /ถจ-/ถ//
 /ถคคถ/
 /ถ/ึ/ถ/ึ
-/ถ/ภ/ภ
+/ถ/ภ/�
 /ถ/ถๅจ
 /ถ/ถๅคๅค
 /ถ/ถ/ถ/ถ
 /ถ/ถ/ถ-/
 /ถ/ถ/ถ
 /ถ/ถ
-/ถ/คๅๅ
+/ถ/คๅ�
 /ถ/ค/ถ/ค
 /ถ//ค/ถ
 /ถ/-/ถ/-
 /ถ-ๅๅตคค
 /ถ-ๅฟีร
-/ถ-ๅ/ถ-ๅ/ถ-ๅ
+/ถ-ๅ/ถ-ๅ/ถ-�
 /ถ-ต/ถ-ต
-/ถ-จจๅ
+/ถ-จจ�
 /ถ-จ/ถ-จ
-/ถ--/ถ-ๅ
+/ถ--/ถ-�
 /ตๅๅ/ต
 /ตๅจๅตคต
 /ตภึาไฟืเ
 /ตฟีเีหะ/ต
-/ตตคๅ
+/ตตค�
 /ตจๅ/ถ-จ
-/ตจุ/ถ-ๅ
+/ตจุ/ถ-�
 /ตจึจ-
-/ตจ//ถ-ๅ
+/ตจ//ถ-�
 /ตจ//-
 /ต/ถ/ึ
 /ต-ภจค--
-/ต-/-คภ
+/ต-/-ค�
 /จๅภจ/
-/จๅจ/ถ-ๅ
+/จๅจ/ถ-�
 /จๅจ--
 /จๅ//ุ
 /จๅ//ถ/ค
 /จภภุจ
 /จถุถ//
 /จต-//ึ
-/จจุๅตตๅ
+/จจุๅตต�
 /จจึ/ถ/ถ
-/จจต-ุ/ตจภ
+/จจต-ุ/ตจ�
 /จจจจจจจ
 /จจค/ึ
-/จจค/ถ-ๅ
-/จจ//ถ/ภ
+/จจค/ถ-�
+/จจ//ถ/�
 /จจ-/ุ
 /จ/ึ/ต
 /จ/จ/จ
-/จ-ๅ/ถ-ๅ
+/จ-ๅ/ถ-�
 /คๅ/ถ-จ
 /คภุๅ/-
 /คภจคตค
@@ -280776,7 +280768,7 @@
 //ๅๅ/ถภค
 //ๅตคถ
 //ๅจ/ถ/ึ
-//ๅ/ๅตคๅ
+//ๅ/ๅตค�
 //ๅ/จคึตภถตๅคจ
 //ๅ//ุ
 //ๅ//จๅจ
@@ -280784,20 +280776,20 @@
 //ุ/
 //ึ/ภตค
 //ภตถคจ
-//ภคถุภๅ
+//ภคถุภ�
 //ธฟืัฟ
 //ถถ//ุุ
 //ถจจึ
 //จๅ/ถ-/
 //จๅ/ต
-//จุ/ถ-ๅ
+//จุ/ถ-�
 //จึ/ถ/ึ
-//จึ-ๅ
+//จึ-�
 //จภๅๅจตๅตคึฟด
 //จภ//
 //จถ-จ
-//จ/จึๅๅ
-//คึๅึๅ
+//จ/จึๅ�
+//คึๅึ�
 //youarestupid77
 //yolanditabeia18**
 //xx06zoe06xx//
@@ -281264,16 +281256,16 @@
 /-ึภึ/-ึภึ
 /-านั/-
 /-ถ/ค/
-/-ตภ-ๅ
+/-ตภ-�
 /-ต/ถ/-
-/-จๅ-ภ
+/-จๅ-�
 /-จึ/ต
 /-จภ/ถๅค
-/-จภ-ๅ
+/-จภ-�
 /-จภ-/จถจค-จ
 /-จตจจ
 /-จจจึ
-/-คึ-ๅ
+/-คึ-�
 /-คจๅ/
 /-evanesence/
 /-dea*
@@ -281282,10 +281274,10 @@
 /-/ุ/-
 /-/ถ-/
 /-/e/_ena
-/-/-/ภ/ภ
+/-/-/ภ/�
 /-.0o0o-./
 /--ตถ/ุ
-/--จตจจจ//จ/ๅ
+/--จตจจจ//จ/�
 /-++*yhiofred
 /-+'l3
 /-*588*
@@ -287356,21 +287348,21 @@
 . hheysirait
 . . ,
 .
--ๅๅจ/ถ-ภ
+-ๅๅจ/ถ-�
 -ๅๅ//ถ/ถ
 -ๅๅ//ถ/ต
 -ๅๅ//-
--ๅๅ-ถๅ
+-ๅๅ-ถ�
 -ๅุ/ภจ/
 -ๅภตคึ
 -ๅจึ-จ
--ๅจถ-ๅ
--ๅจค/ถ-ๅ
+-ๅจถ-�
+-ๅจค/ถ-�
 -ๅ/ึจ-
 -ๅ/ถ-ึ
 -ๅ//ถ//
 -ๅ//ถ-ุ
--ๅ-ๅ-ๅ
+-ๅ-ๅ-�
 -ๅ--/ุ
 -ุุคคถ-
 -ุึๅภึ
@@ -287382,18 +287374,18 @@
 -ึ/ภึต/ึค
 -ึ-ถึๅๅึ
 -ึ-ต-/ถ
--ภๅๅถจจจถ-ๅ/ๅ
+-ภๅๅถจจจถ-ๅ/�
 -ภุจุจจ/ๅึึคค
 -ภต/ๅจ
 -ภ/ถ//
 -ฝตฝ/ค
--ถๅจุจจๅๅตถ/ๅ
+-ถๅจุจจๅๅตถ/�
 -ถๅจ-ๅถ/ึ
 -ถถุถึ
 -ถถตตจจๅถตถภ-
--ถจๅ-จจึค//-ภ
+-ถจๅ-จจึค//-�
 -ถคๅุต-
--ถ/ตจภ
+-ถ/ตจ�
 -ถ//////
 -ถ-ุ//ุ
 -ถ-ถคจุ
@@ -287408,7 +287400,7 @@
 -จๅจ/ต
 -จๅ-/แถ/
 -จตตจจถจคตต-
--จจๅ/ๅ
+-จจๅ/�
 -จจตึค
 -จจต-จจต
 -จจ-/ถ--
@@ -287416,7 +287408,7 @@
 -จ/12/31
 -จ/-ึถ-ค
 -คๅจึึ
--คุจคๅภ
+-คุจคๅ�
 -คถคคดำพื
 -คจึๅ-จ
 -ค//ะำำ
@@ -290229,7 +290221,7 @@
 -/PaTtYnPp/-
 -/KnTq964#
 -/275-/
--//ภุคภ
+-//ภุค�
 -//ตถ
 -///--
 -//-//-3-
@@ -290299,7 +290291,7 @@
 -.,1106mnbvcxz<
 -.,1106dra
 -.,&*%p
---ๅจถจจๅึุุคๅ
+--ๅจถจจๅึุุค�
 --ๅ/ึุจ--
 --จๅึ/-
 --จๅ/จๅๅึภตภึ
@@ -293374,7 +293366,7 @@
 +459800+
 +456789KT
 +456395366
-+456+456  
++456+456 �
 +456+456
 +4523413040
 +44tamy
@@ -314165,7 +314157,7 @@
 **!)@!%@%@)%
 **!!**??**
 **!!**
-** ………………..★
+** ………………..�
 *)ladies
 *)@ @)! )%
 *))%))
@@ -322114,7 +322106,7 @@
 &çè"_é'-
 &çç\\'éàà-
 &çà&&çç&
-&ç_-"'&à
+&ç_-"'&�
 &ç_'à-à&
 &ç-çà\\
 &ç!é&\\
@@ -322471,7 +322463,7 @@
 &_éèàé
 &_à-è-
 &_HEARTZZ
-&_&&ç_à
+&_&&ç_�
 &^CellA27bd
 &^8(ki)er$!@der(culo)
 &^*!)()%)%
@@ -322767,7 +322759,7 @@
 &"à__-
 &"à"__
 &"('§!èçé
-&"&"à
+&"&"�
 &!missu
 &!ihateyou16
 &!)710joh
@@ -344106,284 +344098,281 @@ $
 !!! $ @@@
 !   !
 !
- �R3CKL3$$�
- zadkiel03
- yopoloco 
- xNnWo6272k7x
- wojtek.
- welverst1
- walter
- vietthang     
- verizka
- uinness
- uckie123
- trinity05
- timk4
- tim123
- the big
- tequedo
- teamonn
- tamps01
- stephanie
- steaua radoi 
- spazin1
- sonyamd
- smilebig!
- smha13
- smart1985
- sleepless
- shaunamaloney
- sexyback
- sergioteamo
- sept12
- senbesad
- school13
- sarn9111
- samantha1
- rivajo
- riley15
- right096
- repss
- reg7344
- qazwsxedc1
- pussycatdolls
- puff2864
- poope3
- pizz1mp
- pistol1
- perfect star
- password1
- password
- palmeras
- p3nn 1n gt0n
- overdrivers
- omar120
- nirvana1
- nile
- netscape72
- nega
- navi
- naptown410
- nanethebest
- mishel1
- minnie
- mingcrazy
- milk!!
- mikey4
- miguel
- michelle.
- mendoza
- melvin1
- matavesi
- marquan 
- mark 
- marissa1
- marimba88
- margaret
- mar 
- malditas
- magee3
- maga<3
- maddie218
- lynsey1
- loversand
- lovely87
- lovehim9
- loveable
- love
- louise84
- loser9
- lez-06
- laylanie
- ladykitz
- kristenanne
- km81088
- kelseylovesbarry
- kelani1
- katysilla
- julissa87
- julia
- juiceitup1
- juanjose
- joyland1
- joshua3
- johnny1
- joel021
- joefeher
- jennyeva22
- jelisa
- j2341329
- isaiah
- iluvmark2
- iluveddie1
- ideias 1976 
- hunnibear9
- hpq123
- holler11
- hendrix
- gtyz81
- green1day
- god143
- ghiidusie 
- genics
- gekko
- gateway05
- gary1031
- gago
- g101485
- fuk77u
- fuckyooh21
- filimani
- fernando 
- fairys1
- fabian
- excel15
- espinal
- enter09
- ennifer
- elisa
- ejngyhga007
- edizzle69
- doradaybendita
- dondonan
- derrickak47
- degrassi
- danza
- daisy
- cutiesmile
- cowboys
- cottam 
- confirm2
- codystell!
- cocaine
- chili917
- chevelle11
- castillo
- c5688768
- bye bye
- butterfly
- bubi21
- brian89
- boonova2
- birdie23
- benzbenz
- babigurl1
- b503290174
- atlanta.
- ann1792
- andrea
- alexandra 
- abrxbt
- aaaa
- a9510747
- a142450
- a d a
- _ 09
- Ttwwl789
- RockYou 
- NFS5X
- NAMHWAN
- Mtkjnlj97
- KARYNA.
- Jakekovac3
- Inparadise  
- BAY 13
- 8751617171854
- 791021
- 729826
- 711523
- 57fifty
- 55403818 b
- 51138295
- 510102121 
- 4911427237 
- 32500000 
- 3117548331
- 26867147s
- 23321
- 230886 
- 2300
- 2131KM
- 1loveu
- 1looove
- 1ianian
- 1friends1
- 1dadoz
- 1983
- 1923 
- 123mango
- 121212
- 110786
- 10022513
- 0860776252 
- 0841079575
- 0839236891
- 081088l
- 08 22 0128
- 0557862091
- 026429328
- 0188579722
- 0125457423 
- 0 0 0
-  yara
-  tania
-  sonlymylove  
-  ozkelo
-  nisrina  
-  nan  
-  love
-  kaitlynn4
-  hrtrbr
-  g3mm@
-  d1a7n6h   
-  cxz
-  cq90000
-  c125263
-  besinal
-  b1tch3s  
-  a842000
-  JOSE  
-  3879
-  3199737  
-  25  
-  11  11
-   saoly   
-   rocij
-   qaz
-   nan852
-   mihardcore  
-   chinesa78
-   anggandako
-   95   
-   667306   
-   6530708   
-   5184558   
-   333   
-   3197337
-   1990   
-   0124309682
-   0123456789
-   0109381602
-   000
-    you805
-    no
-    maka
-    jupanu    
-    ciocolatax
-    angelica
-    1990
-    1111
-     pepe
-     markinho
-     mara
-     54321
-     123d
-      7
-       1234567
-       1
-                  
-            
-           
+�R3CKL3$$�
+zadkiel03
+yopoloco
+xNnWo6272k7x
+wojtek.
+welverst1
+walter
+vietthang
+verizka
+uinness
+uckie123
+trinity05
+timk4
+tim123
+the big
+tequedo
+teamonn
+tamps01
+stephanie
+steaua radoi
+spazin1
+sonyamd
+smilebig!
+smha13
+smart1985
+sleepless
+shaunamaloney
+sexyback
+sergioteamo
+sept12
+senbesad
+school13
+sarn9111
+samantha1
+rivajo
+riley15
+right096
+repss
+reg7344
+qazwsxedc1
+pussycatdolls
+puff2864
+poope3
+pizz1mp
+pistol1
+perfect star
+password1
+password
+palmeras
+p3nn 1n gt0n
+overdrivers
+omar120
+nirvana1
+nile
+netscape72
+nega
+navi
+naptown410
+nanethebest
+mishel1
+minnie
+mingcrazy
+milk!!
+mikey4
+miguel
+michelle.
+mendoza
+melvin1
+matavesi
+marquan
+mark
+marissa1
+marimba88
+margaret
+mar
+malditas
+magee3
+maga<3
+maddie218
+lynsey1
+loversand
+lovely87
+lovehim9
+loveable
+love
+louise84
+loser9
+lez-06
+laylanie
+ladykitz
+kristenanne
+km81088
+kelseylovesbarry
+kelani1
+katysilla
+julissa87
+julia
+juiceitup1
+juanjose
+joyland1
+joshua3
+johnny1
+joel021
+joefeher
+jennyeva22
+jelisa
+j2341329
+isaiah
+iluvmark2
+iluveddie1
+ideias 1976
+hunnibear9
+hpq123
+holler11
+hendrix
+gtyz81
+green1day
+god143
+ghiidusie
+genics
+gekko
+gateway05
+gary1031
+gago
+g101485
+fuk77u
+fuckyooh21
+filimani
+fernando
+fairys1
+fabian
+excel15
+espinal
+enter09
+ennifer
+elisa
+ejngyhga007
+edizzle69
+doradaybendita
+dondonan
+derrickak47
+degrassi
+danza
+daisy
+cutiesmile
+cowboys
+cottam
+confirm2
+codystell!
+cocaine
+chili917
+chevelle11
+castillo
+c5688768
+bye bye
+butterfly
+bubi21
+brian89
+boonova2
+birdie23
+benzbenz
+babigurl1
+b503290174
+atlanta.
+ann1792
+andrea
+alexandra
+abrxbt
+aaaa
+a9510747
+a142450
+a d a
+_ 09
+Ttwwl789
+RockYou
+NFS5X
+NAMHWAN
+Mtkjnlj97
+KARYNA.
+Jakekovac3
+Inparadise
+BAY 13
+8751617171854
+791021
+729826
+711523
+57fifty
+55403818 b
+51138295
+510102121
+4911427237
+32500000
+3117548331
+26867147s
+23321
+230886
+2300
+2131KM
+1loveu
+1looove
+1ianian
+1friends1
+1dadoz
+1983
+1923
+123mango
+121212
+110786
+10022513
+0860776252
+0841079575
+0839236891
+081088l
+08 22 0128
+0557862091
+026429328
+0188579722
+0125457423
+0 0 0
+yara
+tania
+sonlymylove
+ozkelo
+nisrina
+nan
+love
+kaitlynn4
+hrtrbr
+g3mm@
+d1a7n6h
+cxz
+cq90000
+c125263
+besinal
+b1tch3s
+a842000
+JOSE
+3879
+3199737
+25
+11  11
+saoly
+rocij
+qaz
+nan852
+mihardcore
+chinesa78
+anggandako
+95
+667306
+6530708
+5184558
+333
+3197337
+1990
+0124309682
+0123456789
+0109381602
+000
+you805
+no
+maka
+jupanu
+ciocolatax
+angelica
+1990
+1111
+pepe
+markinho
+mara
+54321
+123d
+7
+1234567
+1
 xCvBnM,
 ie168
 abygurl69

@@ -13,29 +13,26 @@ socketio = SocketIO(app, cors_allowed_origins="*", async_mode='eventlet')
 # --- LOGIC FUNCTIONS ---
 
 def check_dictionary(password):
-    # This looks for any file starting with 'rockyou_part_'
+    # 1. Clean the user's input immediately
+    target = str(password).strip()
+    
     parts = glob.glob("rockyou_part_*.txt")
     
-    for part_file in parts:
+    for part in parts:
         try:
-            with open(part_file, "r", encoding="latin-1") as f:
+            with open(part, "r", encoding="latin-1") as f:
                 for line in f:
-                    if line.strip() == password:
+                    # 2. Clean the line from the file
+                    file_password = line.strip()
+                    
+                    # 3. Case-insensitive check (Optional but recommended)
+                    if file_password.lower() == target.lower():
+                        print(f"--- MATCH FOUND: {file_password} in {part} ---")
                         return True
         except Exception as e:
-            print(f"Error reading {part_file}: {e}")
+            print(f"Error reading {part}: {e}")
             
-    return False
-
-def check_dictionary(password):
-    try:
-        # Use latin-1 to handle special characters in rockyou.txt
-        with open("rockyou.txt", "r", encoding="latin-1") as f:
-            for line in f:
-                if line.strip() == password:
-                    return True
-    except FileNotFoundError:
-        print("Error: rockyou.txt not found!")
+    print(f"--- NO MATCH FOUND FOR: {target} ---")
     return False
 
 def calculate_entropy(password):
@@ -71,6 +68,9 @@ def analyze_post():
     data = request.json
     password = data.get('password', '')
     
+    # Debugging: See what the phone sent
+    print(f"Phone sent password: {password}") 
+
     entropy_val, strength_label = calculate_entropy(password)
     leaked = check_dictionary(password)
     
