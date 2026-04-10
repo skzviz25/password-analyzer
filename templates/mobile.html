@@ -2,50 +2,31 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Remote Input Node</title>
     <style>
         body { background: #111; color: #00ff41; font-family: sans-serif; text-align: center; padding: 30px; }
-        #pass { 
-            width: 90%; padding: 15px; font-size: 1.2rem; margin-bottom: 20px; 
-            background: #222; color: white; border: 2px solid #555; outline: none;
-            transition: 0.3s;
-        }
-        button { width: 95%; padding: 15px; background: #00ff41; font-weight: bold; border: none; }
+        #pass { width: 90%; padding: 15px; font-size: 1.2rem; background: #222; color: white; border: 2px solid #555; transition: 0.3s; }
+        button { width: 95%; padding: 15px; background: #00ff41; border: none; margin-top: 20px; font-weight: bold; }
     </style>
 </head>
 <body>
-    <h2>SECURE INPUT</h2>
-    <input type="password" id="pass" placeholder="Enter target string...">
-    <button id="btn">TRANSMIT TO SOC</button>
-    <p id="msg"></p>
-
+    <h2>REMOTE INPUT</h2>
+    <input type="password" id="pass" placeholder="Enter target...">
+    <button id="btn">SEND TO SOC</button>
     <script>
         const input = document.getElementById('pass');
-        
-        // Heatmap Logic
         input.addEventListener('input', () => {
-            let val = input.value;
-            let score = 0;
-            if (val.length > 8) score++;
-            if (/[A-Z]/.test(val)) score++;
-            if (/[0-9]/.test(val)) score++;
-            if (/[^A-Za-z0-9]/.test(val)) score++;
-
+            let score = 0, v = input.value;
+            if (v.length > 8) score++; if (/[A-Z]/.test(v)) score++;
+            if (/[0-9]/.test(v)) score++; if (/[^A-Za-z0-9]/.test(v)) score++;
             const colors = ["#ff3e3e", "#ffa500", "#ffff00", "#00ff41"];
-            let activeColor = val.length === 0 ? "#555" : colors[Math.min(score, 3)];
-            input.style.borderColor = activeColor;
-            input.style.boxShadow = `0 0 15px ${activeColor}`;
+            input.style.borderColor = v.length === 0 ? "#555" : colors[Math.min(score, 3)];
         });
-
         document.getElementById('btn').addEventListener('click', () => {
             fetch('/analyze_post', {
                 method: 'POST',
                 headers: {'Content-Type': 'application/json'},
                 body: JSON.stringify({password: input.value})
-            }).then(() => { 
-                document.getElementById('msg').innerText = "Data Transmitted.";
-                input.value = "";
-            });
+            }).then(() => input.value = "");
         });
     </script>
 </body>

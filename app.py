@@ -1,21 +1,20 @@
-import math
+import eventlet
+eventlet.monkey_patch()  # MUST BE FIRST
+
 import hashlib
 import requests
 import re
 import glob
+import math
 from flask import Flask, jsonify, render_template, request
 from flask_socketio import SocketIO
-import eventlet
-
-eventlet.monkey_patch()
 
 app = Flask(__name__)
 socketio = SocketIO(app, cors_allowed_origins="*", async_mode='eventlet')
 
-# --- SECURITY LOGIC ---
+# --- SECURITY CORE ---
 
 def check_local_dictionary(password):
-    """Checks the split rockyou parts on the laptop."""
     target = password.strip()
     parts = glob.glob("rockyou_part_*.txt")
     for part in parts:
@@ -28,24 +27,25 @@ def check_local_dictionary(password):
     return False
 
 def check_hibp_api(password):
-    """Checks the global database using k-Anonymity (SHA-1 prefix)."""
-    sha1_pw = hashlib.sha1(password.encode('utf-8')).hexdigest().upper()
-    prefix, suffix = sha1_pw[:5], sha1_pw[5:]
-    url = f"https://api.pwnedpasswords.com/range/{prefix}"
     try:
-        res = requests.get(url, timeout=3)
+        sha1_pw = hashlib.sha1(str(password).encode('utf-8')).hexdigest().upper()
+        prefix, suffix = sha1_pw[:5], sha1_pw[5:]
+        url = f"https://api.pwnedpasswords.com/range/{prefix}"
+        headers = {'User-Agent': 'B-Tech-Security-Audit'}
+        res = requests.get(url, headers=headers, timeout=5)
         if res.status_code == 200:
             return any(line.split(':')[0] == suffix for line in res.text.splitlines())
-    except: return False
+    except Exception as e:
+        print(f"API Connection Error: {e}")
     return False
 
 def get_insights(password):
-    """Pattern recognition for common password habits."""
     hints = []
     if len(password) < 8: hints.append("Length below industry standard")
-    if re.search(r'(.)\1{2,}', password): hints.append("Repeating characters detected")
-    if any(s in password.lower() for s in ["123", "abc", "qwerty", "asdf"]): hints.append("Keyboard sequence detected")
-    return hints if hints else ["Complexity patterns look unique"]
+    if re.search(r'(.)\1{2,}', password): hints.append("Repeating characters (aaa)")
+    if any(s in password.lower() for s in ["123", "abc", "qwerty", "asdf"]): 
+        hints.append("Keyboard sequence detected")
+    return hints if hints else ["No common patterns detected"]
 
 def calculate_entropy(password):
     if not password: return 0, "None"
@@ -71,9 +71,17 @@ def analyze_post():
     data = request.json
     password = data.get('password', '')
     
+    # Redaction Logic
+    if len(password) > 4:
+        pass_preview = f"{password[:2]}{'*' * (len(password)-4)}{password[-2:]}"
+    elif len(password) > 0:
+        pass_preview = f"{password[0]}{'*' * (len(password)-1)}"
+    else:
+        pass_preview = "EMPTY"
+
     entropy_val, strength_label = calculate_entropy(password)
-    local_leaked = check_local_dictionary(password)
-    api_leaked = check_hibp_api(password)
+    local_match = check_local_dictionary(password)
+    api_match = check_hibp_api(password)
     insights = get_insights(password)
     
     guesses = 2**entropy_val
@@ -84,10 +92,11 @@ def analyze_post():
     }
     
     socketio.emit('update_ui', {
+        'pass_preview': pass_preview,
         'entropy': entropy_val,
         'strength': strength_label,
-        'local': local_leaked,
-        'api': api_leaked,
+        'local': local_match,
+        'api': api_match,
         'insights': insights,
         'times': times
     })
