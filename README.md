@@ -20,8 +20,20 @@ A real-time cybersecurity tool designed to analyze password strength, calculate 
 
 ---
 
-## 📂 Project Structure
-```text
+## ⚙️ Installation & Setup
+
+### 1. Prerequisites
+* Python 3.9+
+* An [ngrok](https://ngrok.com/) account for remote tunneling.
+
+### 2. Clone and Install
+```bash
+git clone [https://github.com/skzviz25/password-analyzer.git](https://github.com/skzviz25/password-analyzer.git)
+cd password-analyzer
+pip install flask flask-socketio eventlet requests
+
+
+📂 Project Structure
 ├── app.py              # Main Flask server & logic
 ├── rockyou_part_1.txt  # Split dictionary data (Part 1)
 ├── rockyou_part_2.txt  # Split dictionary data (Part 2)
@@ -29,3 +41,4 @@ A real-time cybersecurity tool designed to analyze password strength, calculate 
 │   ├── index.html      # Main Laptop Dashboard
 │   └── mobile.html     # Remote Mobile Input Node
 └── README.md           # Project documentation
+
