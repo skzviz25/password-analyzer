@@ -12,7 +12,7 @@ A real-time cybersecurity tool designed to analyze password strength, calculate 
 ---
 
 ## 🛠️ Technical Stack
-* **Backend:** Python 3.x, Flask
+* **Backend:** Python 3, Flask
 * **Real-Time Sync:** Flask-SocketIO (WebSockets) with Eventlet
 * **Frontend:** HTML5, CSS3 (Matrix/Hacker Theme), JavaScript (Vanilla)
 * **Tunneling:** Ngrok (Reverse Proxy)
